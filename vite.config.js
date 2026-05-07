@@ -6,7 +6,7 @@ import react from "@vitejs/plugin-react";
 // or at /<repo-name>/ on GitHub Pages.
 export default defineConfig({
   plugins: [react()],
-  base: "./",
+  base: "/Taxplain/", // GitHub Pages needs this to work
   build: {
     outDir: "dist",
   },
